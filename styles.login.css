@@ -42,6 +42,11 @@ body {
     flex-direction: column;
 }
 
+.login__container h2 {
+    display: flex;
+    justify-content: center;
+}
+
 .login__container--form {
     display: flex;
     flex-direction: column;
@@ -128,7 +133,7 @@ button {
 }
 
 .footer {
-    background: #023e7d;
+    background: #b5179e;
     display: flex;
     align-items: center;
     height: 100px;
@@ -145,4 +150,26 @@ button {
 
 .footer a:hover {
     text-decoration: underline;
+}
+
+@media only screen and (max-width: 600px) {
+    .login__container {
+        background-color: transparent;
+        border: none;
+        padding: 0px;
+        width: 100%;
+    }
+    .footer {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .header {
+        display: flex;
+        justify-content: center;
+    }
+    .header__img {
+        width: 100px;
+        margin-left: 0px;
+        margin-top: 60px;
+    }
 }

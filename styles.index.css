@@ -188,3 +188,19 @@ ul:hover {
     border-radius: 10px;
     border: 2px solid #8f57fd;
 }
+
+.footer {
+    background: #b5179e;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+}
+
+.footer a {
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    padding-left: 30px;
+    text-decoration: none;
+}
